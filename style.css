@@ -11,6 +11,7 @@ body{
     margin: 0%;
     padding: 0%;
     background:linear-gradient(to right,#a72595d8,#5a41cce5);
+
 }
 @font-face {
     font-family: myFont ;
@@ -38,6 +39,8 @@ h1 {
 .btn-brand{
     background-color: rgba(84, 55, 189, 0.76);
     border: 3px solid rgba(212, 62, 226, 0.253);
+    letter-spacing: 2px;
+    color: white;
 }
 .btn-brand:hover {
     background-color: transparent;
@@ -125,7 +128,7 @@ section{
 
 #about{
     font-family: 'myFont';
-    color:black
+    color:rgb(255, 255, 255)
 
 }
 
