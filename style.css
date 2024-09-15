@@ -20,10 +20,10 @@ body{
 
 h1 {
     font-size: 150px;
-    font-family: 'myFont'; /* Apply your custom font */
-    color: transparent; /* Makes the text itself transparent */
-    background-image: linear-gradient(to right, #ffffff, #7a2fdb98); /* Example gradient background */
-    -webkit-background-clip: text; /* Clip the background to the text shape for WebKit browsers */
+    font-family: 'myFont';
+    color: transparent;
+    background-image: linear-gradient(to right, #ffffff, #7a2fdb98); /
+    -webkit-background-clip: text;
     background-clip: text; 
 }
 
