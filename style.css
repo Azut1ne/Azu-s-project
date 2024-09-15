@@ -22,7 +22,7 @@ h1 {
     font-size: 150px;
     font-family: 'myFont';
     color: transparent;
-    background-image: linear-gradient(to right, #ffffff, #7a2fdb98); /
+    background-image: linear-gradient(to right, #ffffff, #7a2fdb98);
     -webkit-background-clip: text;
     background-clip: text; 
 }
@@ -52,8 +52,8 @@ h1 {
 
 .contain {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Button styling */
