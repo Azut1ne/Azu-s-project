@@ -180,3 +180,13 @@ p{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.testimonials img{
+    width: 75px;
+}
+
+.testimonials{
+    border: 2px solid rgb(197, 56, 197);
+    padding: 20px;
+    border-radius: 20px;
+}
