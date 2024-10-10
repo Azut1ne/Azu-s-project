@@ -173,3 +173,10 @@ p{
     color: white;
 
 }
+#cta {
+    height: 90vh;
+    background-image:url("pixel-jeff-clipa-s.gif");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
