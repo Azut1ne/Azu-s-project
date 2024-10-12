@@ -175,18 +175,56 @@ p{
 }
 #cta {
     height: 90vh;
-    background-image:url("pixel-jeff-clipa-s.gif");  
+    background-image:url("Gamerroom.gif");  
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .testimonials img{
-    width: 75px;
+    width: 80px;
+    border-radius: 30px;
 }
 
 .testimonials{
-    border: 2px solid rgb(197, 56, 197);
+    border: 2px solid rgb(160, 0, 253);
     padding: 20px;
     border-radius: 20px;
+    background-color: #7a2fdb98;
+}
+
+#faq{
+    background-color: rgb(0, 0, 0,);
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: #5b41cc00;
+    border: none;
+    border-bottom: 1px solid #ff000000;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #cd05ff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3;
+}
+.accordion-body{
+    border-left: 3px solid rgba(0, 0, 0,);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0,);
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(25, 0, 255);
+    color: #ffffff
+}
+.accordion-button:hover{
+    background-color: rgb(25, 0, 255);
+    color: #ffffff
+
 }
